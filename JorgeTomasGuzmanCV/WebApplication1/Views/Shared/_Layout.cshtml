@@ -8,15 +8,19 @@
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/materialize/css/materialize.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="~/lib/materialize/css/materialize.min.css" />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="~/css/site.min.css" />
     </environment>
 </head>
 <body>
     <div>
-        @RenderBody()
+        <main>
+            @RenderBody()
+        </main>
         <ul id="slide-out" class="sidenav sidenav-fixed">
             <li><a href="#!">First Sidebar Link</a></li>
             <li><a href="#!">Second Sidebar Link</a></li>
