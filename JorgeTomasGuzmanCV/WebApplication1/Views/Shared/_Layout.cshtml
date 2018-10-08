@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - WebApplication1</title>
+    <title>@ViewData["Title"] - Curriculum Vitae</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/materialize/css/materialize.css" />
@@ -21,11 +21,7 @@
         <main>
             @RenderBody()
         </main>
-        <ul id="slide-out" class="sidenav sidenav-fixed">
-            <li><a href="#!">First Sidebar Link</a></li>
-            <li><a href="#!">Second Sidebar Link</a></li>
-        </ul>
-        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <partial name="_SideBarPartial" />
     </div>
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

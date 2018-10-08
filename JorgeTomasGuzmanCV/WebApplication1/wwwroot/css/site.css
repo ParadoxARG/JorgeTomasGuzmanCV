@@ -10,3 +10,14 @@ header, main, footer{
         padding-left: 0;
     }
 }
+
+ul.sidenav.sidenav-fixed li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 160px;
+    line-height: 200px;
+}
+
+ul.sidenav.sidenav-fixed li.logo:hover, ul.sidenav.sidenav-fixed li.logo #logo-container:hover {
+    background-color: transparent;
+}
