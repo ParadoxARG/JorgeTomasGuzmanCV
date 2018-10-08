@@ -5,8 +5,9 @@
 
 $(document).ready(function () {
     $('.collapsible').collapsible();
+    $('.sidenav').sidenav();
+    $('.tabs').tabs();
+    $('.button-collapse').sideNav();
 });
 
-$(document).ready(function () {
-    $('.tabs').tabs();
-});
+

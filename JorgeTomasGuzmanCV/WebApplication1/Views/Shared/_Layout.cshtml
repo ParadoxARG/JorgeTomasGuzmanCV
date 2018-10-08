@@ -11,6 +11,13 @@
 </head>
 <body>
     <div>
+        <nav class="hide-on-large-only">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Menu</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+        <partial name="_SideBarMobile" />
         <main>
             @RenderBody()
         </main>

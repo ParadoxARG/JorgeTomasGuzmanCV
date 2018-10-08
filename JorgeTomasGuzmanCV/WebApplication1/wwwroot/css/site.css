@@ -22,11 +22,30 @@ ul.sidenav.sidenav-fixed li.logo:hover, ul.sidenav.sidenav-fixed li.logo #logo-c
     background-color: transparent;
 }
 
-.header {
-    color: #ee6e73;
-    font-weight: 300;
-}
 
 ul.sidenav.sidenav-fixed li.logo-title {
     text-align: center;
+}
+
+
+ul.sidenav li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 160px;
+    line-height: 200px;
+}
+
+ul.sidenavli.logo:hover, ul.sidenav li.logo #logo-container:hover {
+    background-color: transparent;
+}
+
+
+ul.sidenav li.logo-title {
+    text-align: center;
+}
+
+
+.header {
+    color: #ee6e73;
+    font-weight: 300;
 }
