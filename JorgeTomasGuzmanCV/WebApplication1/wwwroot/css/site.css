@@ -21,3 +21,12 @@ ul.sidenav.sidenav-fixed li.logo {
 ul.sidenav.sidenav-fixed li.logo:hover, ul.sidenav.sidenav-fixed li.logo #logo-container:hover {
     background-color: transparent;
 }
+
+.header {
+    color: #ee6e73;
+    font-weight: 300;
+}
+
+ul.sidenav.sidenav-fixed li.logo-title {
+    text-align: center;
+}

@@ -19,28 +19,23 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
-
-        public IActionResult CursosCertificaciones()
-        {
-            return View();
-        }
+        
 
         public IActionResult ExperienciaLaboral()
         {
             return View();
         }
-        public IActionResult Idiomas()
-        {
-            return View();
-        }
+
         public IActionResult FormacionAcademica()
         {
             return View();
         }
+
         public IActionResult Contacto()
         {
             return View();
         }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
