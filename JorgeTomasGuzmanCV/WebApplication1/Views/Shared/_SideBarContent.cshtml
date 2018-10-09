@@ -10,12 +10,12 @@
     </h5>
 </li>
 <li class="logo">
-    <a id="logo-container" href="/" class="brand-logo">
+    <a id="logo-container" asp-action="index" asp-controller="home">
         <object id="front-page-logo" type="image/jpeg" data="/res/perfil.jpg"></object>
     </a>
 </li>
-<li class="bold"><a href="/">Inicio</a></li>
-<li class="bold"><a href="/Home/Conocimientos">Conocimientos</a></li>
-<li class="bold"><a href="/Home/ExperienciaLaboral">Experiencia Laboral</a></li>
-<li class="bold"><a href="/Home/FormacionAcademica">Formacion Academica</a></li>
-<li class="bold"><a href="/Home/Contacto">Contacto</a></li>
+<li class="bold"><a asp-action="index" asp-controller="home">Inicio</a></li>
+<li class="bold"><a asp-action="conocimientos" asp-controller="home">Conocimientos</a></li>
+<li class="bold"><a asp-action="experiencialaboral" asp-controller="home">Experiencia Laboral</a></li>
+<li class="bold"><a asp-action="formacionacademica" asp-controller="home">Formacion Academica</a></li>
+<li class="bold"><a asp-action="contacto" asp-controller="home">Contacto</a></li>
