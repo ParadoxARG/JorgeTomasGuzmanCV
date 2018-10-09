@@ -7,7 +7,7 @@ $(document).ready(function () {
     $('.collapsible').collapsible();
     $('.sidenav').sidenav();
     $('.tabs').tabs();
-    $('.button-collapse').sideNav();
+//    $('.button-collapse').sideNav();
 });
 
-
+$('.dropdown-trigger').dropdown();
