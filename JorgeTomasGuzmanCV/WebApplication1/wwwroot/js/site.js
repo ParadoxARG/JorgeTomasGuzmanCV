@@ -8,6 +8,7 @@ $(document).ready(function () {
     $('.sidenav').sidenav();
     $('.tabs').tabs();
 //    $('.button-collapse').sideNav();
+    $('.materialboxed').materialbox();
 });
 
 $('.dropdown-trigger').dropdown();

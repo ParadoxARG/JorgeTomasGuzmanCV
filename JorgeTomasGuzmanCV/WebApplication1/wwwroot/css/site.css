@@ -11,14 +11,15 @@ header, main, footer{
     }
 }
 
-ul.sidenav.sidenav-fixed li.logo {
+ul.sidenav.sidenav-fixed li.logo, ul.sidenav li.logo {
     text-align: center;
     margin-top: 32px;
-    margin-bottom: 160px;
+    margin-bottom: 165px;
     line-height: 200px;
 }
 
-ul.sidenav.sidenav-fixed li.logo:hover, ul.sidenav.sidenav-fixed li.logo #logo-container:hover {
+ul.sidenav.sidenav-fixed li.logo:hover, ul.sidenav.sidenav-fixed li.logo #logo-container:hover, 
+ul.sidenavli.logo:hover, ul.sidenav li.logo #logo-container:hover {
     background-color: transparent;
 }
 
@@ -28,14 +29,7 @@ ul.sidenav.sidenav-fixed li.logo-title {
 }
 
 
-ul.sidenav li.logo {
-    text-align: center;
-    margin-top: 32px;
-    margin-bottom: 160px;
-    line-height: 200px;
-}
-
-ul.sidenavli.logo:hover, ul.sidenav li.logo #logo-container:hover {
+ {
     background-color: transparent;
 }
 
