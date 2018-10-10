@@ -50,7 +50,7 @@ body:not(.es) :lang(es) {
     position: absolute;
 }
 
-ul.title-bar {
+.title-bar {
     background-color: #284B63;
     text-align: center;
     color: white;
