@@ -9,6 +9,13 @@ $(document).ready(function () {
     $('.tabs').tabs();
 //    $('.button-collapse').sideNav();
     $('.materialboxed').materialbox();
+    $('.btn').click(function () {
+        document.body.className = 'es';
+    });
+    $("#es").click(function () {
+        alert('es');
+    });
+    $("#en").click(function () {
+        alert('en');
+    });
 });
-
-$('.dropdown-trigger').dropdown();

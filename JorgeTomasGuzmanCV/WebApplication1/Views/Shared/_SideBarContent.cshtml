@@ -6,16 +6,28 @@
     <h5>
         <a href="/" class="brand-logo">
             Jorge Tom&aacutes Guzm&aacuten
-        </a>    
+        </a>
     </h5>
 </li>
-<li class="logo">
-    <a id="logo-container" asp-action="index" asp-controller="home">
-        <object id="front-page-logo" type="image/jpeg" data="/res/perfil.jpg"></object>
-    </a>
-</li>
-<li class="bold"><a asp-action="index" asp-controller="home">Inicio</a></li>
-<li class="bold"><a asp-action="conocimientos" asp-controller="home">Conocimientos</a></li>
-<li class="bold"><a asp-action="experiencialaboral" asp-controller="home">Experiencia Laboral</a></li>
-<li class="bold"><a asp-action="formacionacademica" asp-controller="home">Formacion Academica</a></li>
-<li class="bold"><a asp-action="contacto" asp-controller="home">Contacto</a></li>
+@*<div class="wrapper" id="btn-container">
+    <li lang="en"><button id="es" class="waves-effect waves-light btn">Español</button></li>
+        <li lang="es"><button id="en" class="waves-effect waves-light btn">English</button></li>
+    <div class="switch">
+        <label>
+            English
+            <input type="checkbox">
+            <span class="lever"></span>
+            Español
+        </label>
+    </div>
+</div>*@
+<li class="bold" lang="es"><a asp-action="index" asp-controller="home">Inicio</a></li>
+<li class="bold" lang="es"><a asp-action="conocimientos" asp-controller="home">Conocimientos</a></li>
+<li class="bold" lang="es"><a asp-action="experiencialaboral" asp-controller="home">Experiencia Laboral</a></li>
+<li class="bold" lang="es"><a asp-action="formacionacademica" asp-controller="home">Formacion Academica</a></li>
+<li class="bold" lang="es"><a asp-action="contacto" asp-controller="home">Contacto</a></li>
+<li class="bold" lang="en"><a asp-action="index" asp-controller="home">Index</a></li>
+<li class="bold" lang="en"><a asp-action="conocimientos" asp-controller="home">Knowledge</a></li>
+<li class="bold" lang="en"><a asp-action="experiencialaboral" asp-controller="home">Job Experience</a></li>
+<li class="bold" lang="en"><a asp-action="formacionacademica" asp-controller="home">Academic Formation</a></li>
+<li class="bold" lang="en"><a asp-action="contacto" asp-controller="home">Contact</a></li>
