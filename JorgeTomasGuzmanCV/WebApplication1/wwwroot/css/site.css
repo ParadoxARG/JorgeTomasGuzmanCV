@@ -55,6 +55,7 @@ body:not(.es) :lang(es) {
     text-align: center;
     color: white;
     font-family: 'Times New Roman';
+    margin-top:0;
 }
 
 body {

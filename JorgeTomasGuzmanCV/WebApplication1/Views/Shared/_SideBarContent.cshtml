@@ -10,22 +10,19 @@
     </h5>
 </li>
 @*<div class="wrapper" id="btn-container">
+    <li lang="es"><button id="en" class="waves-effect waves-light btn">English</button></li>
     <li lang="en"><button id="es" class="waves-effect waves-light btn">Español</button></li>
-        <li lang="es"><button id="en" class="waves-effect waves-light btn">English</button></li>
-    <div class="switch">
-        <label>
-            English
-            <input type="checkbox">
-            <span class="lever"></span>
-            Español
-        </label>
-    </div>
 </div>*@
 <li class="bold" lang="es"><a asp-action="index" asp-controller="home">Inicio</a></li>
 <li class="bold" lang="es"><a asp-action="conocimientos" asp-controller="home">Conocimientos</a></li>
 <li class="bold" lang="es"><a asp-action="experiencialaboral" asp-controller="home">Experiencia Laboral</a></li>
 <li class="bold" lang="es"><a asp-action="formacionacademica" asp-controller="home">Formacion Academica</a></li>
 <li class="bold" lang="es"><a asp-action="contacto" asp-controller="home">Contacto</a></li>
+@*<form asp-action="conocimientos" asp-controller="home" method='get' id="conocimientosform">
+    <input type="hidden" id="langvalue" name='language' value='en' />
+    <li class="bold" lang="es"><a asp-action="conocimientos" asp-controller="home" id="conocimientos">Conocimientos</a></li>
+    <li class="bold" lang="en"><a asp-action="conocimientos" asp-controller="home" id="conocimientos">Knowledge</a></li>
+</form>*@
 <li class="bold" lang="en"><a asp-action="index" asp-controller="home">Index</a></li>
 <li class="bold" lang="en"><a asp-action="conocimientos" asp-controller="home">Knowledge</a></li>
 <li class="bold" lang="en"><a asp-action="experiencialaboral" asp-controller="home">Job Experience</a></li>
