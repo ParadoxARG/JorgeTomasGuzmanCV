@@ -15,21 +15,23 @@ namespace WebApplication1.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Conocimientos()
         {
-            ViewData["Message"] = "Your application description page.";
+            return View();
+        }
+        
 
+        public IActionResult ExperienciaLaboral()
+        {
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult FormacionAcademica()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Contacto()
         {
             return View();
         }

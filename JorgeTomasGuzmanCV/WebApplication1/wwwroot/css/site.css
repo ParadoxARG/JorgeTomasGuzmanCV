@@ -1,37 +1,83 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
-body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+
+header, main, footer{
+    padding-left: 300px;
 }
 
-/* Wrapping element */
-/* Set some basic padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Carousel */
-.carousel-caption p {
-    font-size: 20px;
-    line-height: 1.4;
-}
-
-/* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
-    width: 100%;
-}
-
-/* QR code generator */
-#qrCode {
-    margin: 15px;
-}
-
-/* Hide/rearrange for smaller screens */
-@media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
     }
+}
+
+ul.sidenav.sidenav-fixed li.logo, ul.sidenav li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 165px;
+    line-height: 200px;
+}
+
+ul.sidenav.sidenav-fixed li.logo:hover, ul.sidenav.sidenav-fixed li.logo #logo-container:hover, 
+ul.sidenavli.logo:hover, ul.sidenav li.logo #logo-container:hover {
+    background-color: transparent;
+}
+
+ul.sidenav.sidenav-fixed li.logo-title {
+    text-align: center;
+}
+
+ul.sidenav li.logo-title {
+    text-align: center;
+}
+
+
+.header {
+    color: #ee6e73;
+    font-weight: 300;
+}
+
+body:not(.en) :lang(en),
+body:not(.es) :lang(es) {
+    display: none;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+}
+
+.title-bar {
+    background-color: #284B63;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman';
+    margin-top:0;
+}
+
+body {
+    background-color: #2f5975;
+    color: white;
+}
+
+.profile-image {
+    flex: 0 0 258px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+div{
+    display:block;
+}
+
+.sidenav {
+    background-color: #D9D9D9;
+}
+
+nav {
+    background-color: #2f5975;
+    font-family: 'Times New Roman';
 }
